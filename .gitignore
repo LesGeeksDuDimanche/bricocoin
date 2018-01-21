@@ -1,0 +1,34 @@
+src/*.exe
+src/bricocoin
+src/bricocoind
+src/test_bricocoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.bricocoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+bricocoin-qt
+Bricocoin-Qt.app
+
+# Unit-tests
+Makefile.test
+bricocoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
